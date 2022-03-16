@@ -1,0 +1,50 @@
+.result{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color : #1c5e55;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    font-family: "Montserrat", sans-serif;
+}
+.answers{
+    font-size: 22px;
+    color: #1c5e55;
+}
+.name{
+    font-size: 30px;
+    color : #fff;
+}
+@media (max-width: 720px) {
+    .container{
+        flex-direction : column;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        flex-direction : column;
+    }
+    .answers{
+        font-size: 15px;
+        color: #1c5e55;
+    }
+    .name{
+        font-size: 20px;
+        color : #fff;
+    }
+}
+@media (max-width: 500px) {
+    .name{
+        font-size: 15px;
+        color : #fff;
+    }
+}

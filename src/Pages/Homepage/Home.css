@@ -1,0 +1,44 @@
+.quizPhoto{
+    height: 350px;
+    width: 350px;
+}
+.Homehead{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-family: "Montserrat", sans-serif;
+}
+.btN{
+    color: #15524a;
+    background: antiquewhite;
+}
+@media (max-width: 771px) {
+     .quizPhoto {
+    height: 250px;
+    width: 250px;
+     }
+}
+@media (max-width: 450px) {
+    .quizPhoto {
+   height: 150px;
+   width: 150px;
+    }
+    .Homehead{
+        flex-direction: column-reverse;
+    }
+    .details{
+        margin-top: 25px;
+    }
+    .quizPhoto{
+        margin : 25px;
+    }
+}

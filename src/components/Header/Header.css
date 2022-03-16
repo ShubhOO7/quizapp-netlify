@@ -1,0 +1,19 @@
+.title {
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color : white;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width:450) {
+      .title{
+          font-size: 15vw;
+      }
+  }
