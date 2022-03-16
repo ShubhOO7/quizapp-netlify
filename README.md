@@ -10,9 +10,26 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project URL : https://relaxed-goodall-e3c7c4.netlify.app;
+
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see any lint errors in the console."
+
+
+### `Used hooks`
+useState mainly used 
+
+### `React Components`
+
+Axios - fetching API (async && await).     
+BrowserRoutes    
+Routes    
+Route.  
+link.  
+
+
+
 
 ### `npm test`
 
