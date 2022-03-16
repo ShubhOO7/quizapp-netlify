@@ -23,6 +23,7 @@ function Quiz({name , score , questions , setScore }) {
           array.sort(() => Math.random() - 0.5);
           }
     const k = questions ? shuffle(array) : null;
+    console.log(k)
 
     questions ? console.log(questions[currQuest].correct_answer ) : console.log("NOT Found"); 
 
